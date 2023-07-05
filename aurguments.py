@@ -38,6 +38,20 @@ def concatenate_kwargs(**weeks):
         strin += week
     return strin
 
+def func_name(name,course_name):
+    print(f"Hello,my name is {name} and my course is {course_name}")
+
+def calculator(a,b):
+    add = a+b
+    return add
+
+
+
+
+        
+
+
+
 
 
 

@@ -86,8 +86,8 @@ def prime_num(b):
 
    
 
-# Write a function that takes a list of integers as input and prints the sum of all 
-# the even numbers in the list.    
+#Write a function that takes a list of integers as input and prints the sum of all 
+#the even numbers in the list.    
         
 def sum_odd():
     sum=0
@@ -98,18 +98,19 @@ def sum_odd():
 
 
 #Write a function that takes any two integers as input, and prints the sum of all 
-# the numbers between the two integers (inclusive) that are divisible by 3. 
+#the numbers between the two integers (inclusive) that are divisible by 3. 
 
 def int_nums():
     n,m=3,10
-    for i in range(1,m+1):
+    for i in range(1,m+1):          
         sum1=0
         sum2=0
     if i %n==0:
         sum1+=i
     else:
         sum2+=i
-        print(f"{sum1} {sum2}")        
+        print(f"{sum1} {sum2}")      
+           
 
 
 
